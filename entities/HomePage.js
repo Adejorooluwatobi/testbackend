@@ -12,8 +12,7 @@ const HomePageSchema = new mongoose.Schema({
   whatWeDo: {
     header: { type: String, default: '' },
     title: { type: String, default: '' },
-    description: { type: String, default: '' },
-    items: { type: Array, default: [] }
+    description: { type: String, default: '' }
   },
   testimonials: {
     header: { type: String, default: '' },
